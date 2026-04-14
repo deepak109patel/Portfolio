@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deepak Kumar Patel | ML & AI Engineer</title>
+  <meta name="description" content="Portfolio of Deepak Kumar Patel — Machine Learning & Generative AI Engineer specializing in end-to-end ML systems, deep learning, and RAG applications." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">DKP<span class="dot">.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="Deepak_13April_2026.pdf" download class="nav-cta" id="resume-download-btn">Resume ↓</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="hero_background.png" alt="background" class="hero-bg-img" />
+      <div class="hero-overlay"></div>
+      <!-- Floating particles -->
+      <div class="particles" id="particles"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Available for Opportunities
+      </div>
+      <h1 class="hero-title">
+        Hi, I'm <span class="gradient-text">Deepak</span><br/>
+        ML & AI Engineer
+      </h1>
+      <p class="hero-subtitle">
+        Building end-to-end ML systems &amp; Generative AI solutions —<br/>
+        from fraud detection pipelines to RAG-powered applications.
+      </p>
+      <div class="hero-cta-group">
+        <a href="#projects" class="btn-primary" id="view-work-btn">View My Work</a>
+        <a href="#contact" class="btn-secondary" id="contact-btn">Get In Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">500+</span>
+          <span class="stat-label">LeetCode Problems</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">1860</span>
+          <span class="stat-label">Peak LC Rating</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">3</span>
+          <span class="stat-label">AI Certifications</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-image-wrap">
+      <div class="hero-image-ring"></div>
+      <div class="hero-image-ring ring2"></div>
+      <img src="profile_avatar.png" alt="Deepak Kumar Patel" class="hero-avatar" />
+    </div>
+    <a href="#about" class="scroll-indicator" id="scroll-indicator">
+      <div class="scroll-arrow"></div>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Passionate about <span class="gradient-text">AI & Data</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="about-lead">
+            I'm a final-year Computer Science student at <strong>IIIT Bhagalpur</strong> with a deep passion for Machine Learning, Generative AI, and building intelligent systems that solve real-world problems.
+          </p>
+          <p class="about-body">
+            My journey spans from developing real-time fraud detection systems processing 6M+ transactions,
+            to building RAG-powered PDF chat applications and medical image classification models.
+            I thrive at the intersection of research and engineering — turning ML models into production-ready APIs.
+          </p>
+          <p class="about-body">
+            When I'm not training models, you'll find me grinding competitive programming — I'm a <strong>LeetCode Knight</strong>
+            with a peak rating of 1860 and 500+ problems solved.
+          </p>
+          <div class="about-info-cards">
+            <div class="info-card">
+              <span class="info-icon">🎓</span>
+              <div>
+                <span class="info-label">Education</span>
+                <span class="info-value">B.Tech CSE, IIIT Bhagalpur</span>
+              </div>
+            </div>
+            <div class="info-card">
+              <span class="info-icon">📍</span>
+              <div>
+                <span class="info-label">Location</span>
+                <span class="info-value">Varanasi, UP, India</span>
+              </div>
+            </div>
+            <div class="info-card">
+              <span class="info-icon">🎯</span>
+              <div>
+                <span class="info-label">Focus</span>
+                <span class="info-value">ML Engineering & Gen AI</span>
+              </div>
+            </div>
+            <div class="info-card">
+              <span class="info-icon">📅</span>
+              <div>
+                <span class="info-label">Graduation</span>
+                <span class="info-value">July 2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-edu">
+          <div class="edu-card">
+            <div class="edu-icon">🏛️</div>
+            <div class="edu-body">
+              <h3 class="edu-school">Indian Institute of Information Technology Bhagalpur</h3>
+              <p class="edu-degree">B.Tech – Computer Science & Engineering</p>
+              <p class="edu-duration">Nov 2022 – July 2026</p>
+              <div class="edu-cgpa">
+                <span class="cgpa-label">CGPA</span>
+                <span class="cgpa-value">7.71</span>
+                <div class="cgpa-bar">
+                  <div class="cgpa-fill" style="width: 77.1%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cert-section">
+            <h4 class="cert-title">Certifications (Coursera · Andrew Ng)</h4>
+            <ul class="cert-list">
+              <li class="cert-item">
+                <span class="cert-icon">✅</span>
+                Supervised ML: Regression & Classification
+              </li>
+              <li class="cert-item">
+                <span class="cert-icon">✅</span>
+                Advanced Learning Algorithms
+              </li>
+              <li class="cert-item">
+                <span class="cert-icon">✅</span>
+                Unsupervised Learning, Recommenders & Reinforcement Learning
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section section-dark" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Technical Arsenal</span>
+        <h2 class="section-title">Skills & <span class="gradient-text">Technologies</span></h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-category" id="skill-languages">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">💻</span>
+            <h3>Languages</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+          </div>
+        </div>
+
+        <div class="skill-category" id="skill-ai">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">🧠</span>
+            <h3>AI & Machine Learning</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag highlight">Deep Learning</span>
+            <span class="skill-tag highlight">CNNs</span>
+            <span class="skill-tag highlight">RAG Systems</span>
+            <span class="skill-tag">Logistic Regression</span>
+            <span class="skill-tag">Feature Engineering</span>
+            <span class="skill-tag">Model Evaluation</span>
+          </div>
+        </div>
+
+        <div class="skill-category" id="skill-frameworks">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">⚙️</span>
+            <h3>Frameworks & Tools</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag highlight">TensorFlow</span>
+            <span class="skill-tag highlight">LangChain</span>
+            <span class="skill-tag highlight">FastAPI</span>
+            <span class="skill-tag">Scikit-learn</span>
+            <span class="skill-tag">Flask</span>
+            <span class="skill-tag">FAISS</span>
+            <span class="skill-tag">OpenAI API</span>
+            <span class="skill-tag">NumPy</span>
+            <span class="skill-tag">Pandas</span>
+          </div>
+        </div>
+
+        <div class="skill-category" id="skill-cs">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon">🔧</span>
+            <h3>CS Fundamentals</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">DSA</span>
+            <span class="skill-tag">OOPs</span>
+            <span class="skill-tag">DBMS</span>
+            <span class="skill-tag">Operating Systems</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">Postman</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Proficiency bars -->
+      <div class="proficiency-section">
+        <h3 class="prof-title">Core Proficiency</h3>
+        <div class="prof-bars">
+          <div class="prof-item">
+            <div class="prof-label-row">
+              <span>Python & ML Ecosystem</span>
+              <span>92%</span>
+            </div>
+            <div class="prof-bar"><div class="prof-fill" data-width="92"></div></div>
+          </div>
+          <div class="prof-item">
+            <div class="prof-label-row">
+              <span>Deep Learning / TensorFlow</span>
+              <span>85%</span>
+            </div>
+            <div class="prof-bar"><div class="prof-fill" data-width="85"></div></div>
+          </div>
+          <div class="prof-item">
+            <div class="prof-label-row">
+              <span>LLMs & RAG Systems</span>
+              <span>88%</span>
+            </div>
+            <div class="prof-bar"><div class="prof-fill" data-width="88"></div></div>
+          </div>
+          <div class="prof-item">
+            <div class="prof-label-row">
+              <span>FastAPI & REST APIs</span>
+              <span>82%</span>
+            </div>
+            <div class="prof-bar"><div class="prof-fill" data-width="82"></div></div>
+          </div>
+          <div class="prof-item">
+            <div class="prof-label-row">
+              <span>C++ / DSA / Competitive Programming</span>
+              <span>80%</span>
+            </div>
+            <div class="prof-bar"><div class="prof-fill" data-width="80"></div></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card" id="project-fraud">
+          <div class="project-accent accent-red"></div>
+          <div class="project-header">
+            <span class="project-number">01</span>
+            <div class="project-links">
+              <a href="https://github.com/deepak109patel/Fraud-Detection" target="_blank" rel="noopener" class="project-link-btn" aria-label="GitHub - Fraud Detection">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Real-Time Fraud Detection System</h3>
+          <p class="project-desc">
+            End-to-end ML pipeline processing <strong>6M+ financial transactions</strong> with 95%+ fraud recall.
+            Built automated data validation, risk-based thresholds, and a production-ready FastAPI service.
+          </p>
+          <div class="project-highlights">
+            <span class="highlight-chip">📊 6M+ Transactions</span>
+            <span class="highlight-chip">✅ 95%+ Recall</span>
+            <span class="highlight-chip">⚡ Real-Time API</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Scikit-learn</span>
+            <span class="tech-tag">FastAPI</span>
+            <span class="tech-tag">Pandas</span>
+          </div>
+          <a href="https://github.com/deepak109patel/Fraud-Detection" target="_blank" class="project-cta" id="fraud-project-btn">View on GitHub →</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card featured-card" id="project-pdf">
+          <div class="project-accent accent-purple"></div>
+          <div class="project-badge">Featured</div>
+          <div class="project-header">
+            <span class="project-number">02</span>
+            <div class="project-links">
+              <a href="https://github.com/deepak109patel/PDF-Chat-Application" target="_blank" rel="noopener" class="project-link-btn" aria-label="GitHub - PDF Chat">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">PDF Chat Application (RAG)</h3>
+          <p class="project-desc">
+            Conversational AI system enabling natural language querying across <strong>1000+ pages</strong> of PDF documents.
+            Reduced query latency by 40% using FAISS vector search and LangChain orchestration.
+          </p>
+          <div class="project-highlights">
+            <span class="highlight-chip">📄 1000+ Pages</span>
+            <span class="highlight-chip">⚡ 40% Faster Queries</span>
+            <span class="highlight-chip">🤖 RAG Architecture</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">LangChain</span>
+            <span class="tech-tag">FAISS</span>
+            <span class="tech-tag">OpenAI API</span>
+            <span class="tech-tag">Streamlit</span>
+            <span class="tech-tag">Python</span>
+          </div>
+          <a href="https://github.com/deepak109patel/PDF-Chat-Application" target="_blank" class="project-cta" id="pdf-project-btn">View on GitHub →</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card" id="project-disease">
+          <div class="project-accent accent-green"></div>
+          <div class="project-header">
+            <span class="project-number">03</span>
+            <div class="project-links">
+              <a href="https://github.com/deepak109patel/Disease-Detection-Model-Pneumonia-COVID-19-Tuberculosis-" target="_blank" rel="noopener" class="project-link-btn" aria-label="GitHub - Disease Detection">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Disease Detection via Medical Imaging</h3>
+          <p class="project-desc">
+            Multi-class CNN model classifying chest X-rays for <strong>Pneumonia, COVID-19, and Tuberculosis</strong>
+            with 85%+ accuracy, using data augmentation to handle class imbalance.
+          </p>
+          <div class="project-highlights">
+            <span class="highlight-chip">🫁 3 Disease Classes</span>
+            <span class="highlight-chip">🎯 85%+ Accuracy</span>
+            <span class="highlight-chip">🖼️ X-Ray Analysis</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">TensorFlow</span>
+            <span class="tech-tag">CNN</span>
+            <span class="tech-tag">OpenCV</span>
+            <span class="tech-tag">Python</span>
+          </div>
+          <a href="https://github.com/deepak109patel/Disease-Detection-Model-Pneumonia-COVID-19-Tuberculosis-" target="_blank" class="project-cta" id="disease-project-btn">View on GitHub →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACHIEVEMENTS ===== -->
+  <section class="section section-dark" id="achievements">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Recognition</span>
+        <h2 class="section-title">Achievements & <span class="gradient-text">Competitive Programming</span></h2>
+      </div>
+      <div class="achievements-grid">
+
+        <div class="achievement-card" id="achievement-leetcode">
+          <div class="achievement-glow glow-yellow"></div>
+          <div class="achievement-icon-wrap">
+            <span class="achievement-emoji">⚔️</span>
+          </div>
+          <span class="achievement-platform">LeetCode</span>
+          <h3 class="achievement-title">Knight</h3>
+          <p class="achievement-desc">Peak rating of <strong>1860</strong> with over <strong>500+ problems</strong> solved across all difficulty levels.</p>
+          <div class="achievement-badge">Knight Badge</div>
+        </div>
+
+        <div class="achievement-card" id="achievement-codechef">
+          <div class="achievement-glow glow-orange"></div>
+          <div class="achievement-icon-wrap">
+            <span class="achievement-emoji">🍴</span>
+          </div>
+          <span class="achievement-platform">CodeChef</span>
+          <h3 class="achievement-title">2-Star Coder</h3>
+          <p class="achievement-desc">Active competitive programmer on CodeChef, consistently participating in monthly contests.</p>
+          <div class="achievement-badge">2★ Rating</div>
+        </div>
+
+        <div class="achievement-card" id="achievement-gfg">
+          <div class="achievement-glow glow-green"></div>
+          <div class="achievement-icon-wrap">
+            <span class="achievement-emoji">🏆</span>
+          </div>
+          <span class="achievement-platform">GeeksForGeeks</span>
+          <h3 class="achievement-title">Top 160 Rank</h3>
+          <p class="achievement-desc">Secured a <strong>Top 160 rank</strong> in the institute rank list, demonstrating consistent problem-solving excellence.</p>
+          <div class="achievement-badge">Institute Rank #160</div>
+        </div>
+
+      </div>
+
+      <!-- Stats bar -->
+      <div class="stats-banner">
+        <div class="banner-stat">
+          <span class="banner-num">500+</span>
+          <span class="banner-label">Problems Solved</span>
+        </div>
+        <div class="banner-stat">
+          <span class="banner-num">1860</span>
+          <span class="banner-label">Peak LeetCode Rating</span>
+        </div>
+        <div class="banner-stat">
+          <span class="banner-num">3</span>
+          <span class="banner-label">ML Certifications</span>
+        </div>
+        <div class="banner-stat">
+          <span class="banner-num">7.71</span>
+          <span class="banner-label">CGPA</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+        <p class="section-subtitle">Open to full-time opportunities, internships, and exciting ML/AI projects.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <a href="mailto:deepak.2201109cs@iiitbh.ac.in" class="contact-card" id="contact-email">
+            <div class="contact-card-icon">📧</div>
+            <div class="contact-card-body">
+              <span class="contact-card-label">Email</span>
+              <span class="contact-card-value">deepak.2201109cs@iiitbh.ac.in</span>
+            </div>
+            <span class="contact-card-arrow">→</span>
+          </a>
+          <a href="tel:+916387867208" class="contact-card" id="contact-phone">
+            <div class="contact-card-icon">📱</div>
+            <div class="contact-card-body">
+              <span class="contact-card-label">Phone</span>
+              <span class="contact-card-value">+91 63878 67208</span>
+            </div>
+            <span class="contact-card-arrow">→</span>
+          </a>
+          <a href="https://linkedin.com/in/deepak-kr" target="_blank" rel="noopener" class="contact-card" id="contact-linkedin">
+            <div class="contact-card-icon">💼</div>
+            <div class="contact-card-body">
+              <span class="contact-card-label">LinkedIn</span>
+              <span class="contact-card-value">linkedin.com/in/deepak-kr</span>
+            </div>
+            <span class="contact-card-arrow">→</span>
+          </a>
+          <a href="https://github.com/deepak109patel" target="_blank" rel="noopener" class="contact-card" id="contact-github">
+            <div class="contact-card-icon">💻</div>
+            <div class="contact-card-body">
+              <span class="contact-card-label">GitHub</span>
+              <span class="contact-card-value">github.com/deepak109patel</span>
+            </div>
+            <span class="contact-card-arrow">→</span>
+          </a>
+        </div>
+        <div class="contact-form-wrap">
+          <form class="contact-form" id="contact-form" onsubmit="handleFormSubmit(event)">
+            <h3 class="form-title">Send a Message</h3>
+            <div class="form-group">
+              <label for="contact-name">Name</label>
+              <input type="text" id="contact-name" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <label for="contact-email-input">Email</label>
+              <input type="email" id="contact-email-input" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" rows="5" placeholder="Tell me about an opportunity or project..." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary form-submit" id="form-submit-btn">Send Message ✉️</button>
+            <p class="form-note" id="form-success" style="display:none; color: #a78bfa; margin-top: 1rem; text-align:center;">
+              ✅ Message copied! Please send it to my email directly.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <span class="footer-logo">DKP<span class="dot">.</span></span>
+        <p class="footer-tagline">Building intelligent systems, one model at a time.</p>
+        <div class="footer-links">
+          <a href="https://github.com/deepak109patel" target="_blank" rel="noopener" id="footer-github">GitHub</a>
+          <a href="https://linkedin.com/in/deepak-kr" target="_blank" rel="noopener" id="footer-linkedin">LinkedIn</a>
+          <a href="mailto:deepak.2201109cs@iiitbh.ac.in" id="footer-email">Email</a>
+          <a href="Deepak_13April_2026.pdf" download id="footer-resume">Resume</a>
+        </div>
+        <p class="footer-copy">© 2026 Deepak Kumar Patel · Crafted with passion & Python ☕</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
